@@ -35,22 +35,3 @@ Namespace & Declaration merging: Implement declaration merging using namespaces 
 Brand convention & Nominal typing: Create and manage unique types for credits using nominal typing.
 Tasks Breakdown
 Each task has specific instructions and examples provided in the project folder. You'll start by copying the necessary configuration files (such as package.json, .eslintrc.js, tsconfig.json, webpack.config.js) into each task folder, and then implement the required TypeScript functionality in the respective files.
-
-How to Run the Project
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/holbertonschool-web_react
-Navigate to the TypeScript directory and install dependencies:
-bash
-Copy code
-cd TypeScript
-npm install
-Compile and build the project:
-bash
-Copy code
-npm run build
-Run the tests:
-bash
-Copy code
-npm test
