@@ -53,3 +53,15 @@ function executeWork(employee: Director | Teacher):void {
         console.log(employee.workTeacherTasks());
     }
 }
+
+type Subjects = 'Math' | 'History';
+
+function teachClass(todayClass: string) {
+	if (todayClass === 'Math') {
+		return "Teaching Math";
+	}
+	if (todayClass === 'History') {
+		return "Teaching History";
+	}
+
+}
